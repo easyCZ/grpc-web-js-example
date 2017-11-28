@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run webpack",
-    "webpack": "webpack -d --watch",
+    "compile": "npm run webpack",
+    "watch": "webpack -d --watch",
     "proto": "protoc --plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts --js_out=import_style=commonjs,binary:./src --js_service_out=./src proto/*.proto",
-    "serve": "webpack-dev-server --content-base ./"
+    "start": "webpack-dev-server --content-base ./"
   },
   "author": "",
   "license": "ISC",
