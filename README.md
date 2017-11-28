@@ -2,5 +2,6 @@
 An example of usage of gRPC Web without Typescript
 
 ## Usage
-1. Compile protos with `npm run proto`
-2. Start dev server with `npm start`
+1. Install node packages with `npm i`
+2. Compile protos with `npm run proto`
+3. Start dev server with `npm start`
